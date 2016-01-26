@@ -1,0 +1,4 @@
+1.点击  Preferences > Browse Packages  菜单
+2.浏览文件夹，进入 Installed Packages 文件(Subline Text3 目录)
+3.下载https://packagecontrol.io/Package%20Control.sublime-package 文件放到 Installed Packages 文件内
+4.重启 Sublime Text

@@ -1,0 +1,29 @@
+Sublime Text 3 配置 sass
+
+先安装Sublime Text的sass 和 sass build插件，
+
+Sublime Text新建一个test.scss文件
+$color: #369; 
+body {
+    background: darken($color, 10%);
+}
+按Ctrl+B进行编译，成功编译结果显示如下：
+      write C:\Users\work/test.css
+[Finished in 0.8s]
+ 
+
+如果报错
+
+[Decode error - output not utf-8] 
+
+…… 
+
+ 
+
+就右键“我的电脑“-属性-高级(win8.1为高级系统设置)-弹出“环境变量”(底部)，编辑PATH，把你的ruby/bin的地址前面加英文半角分号粘贴进去，如：C:\Users\lt\Downloads\AppServ\Apache2.2\bin;C:\Users\lt\Downloads\AppServ\php5;C:\Users\lt\Downloads\AppServ\MySQL\bin;C:\Users\lt\Downloads\Ruby200-x64\bin
+
+然后确定即可
+
+ 
+
+重开 Sublime Text 3及test.scss文件，Ctrl+B 即可编译成功
